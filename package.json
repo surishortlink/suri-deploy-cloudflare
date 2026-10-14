@@ -1,0 +1,24 @@
+{
+  "name": "@surishortlink/deploy-cloudflare",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A template repository tailored for deploying Suri to Cloudflare Workers",
+  "homepage": "https://github.com/surishortlink/suri-deploy-cloudflare#readme",
+  "bugs": "https://github.com/surishortlink/suri-deploy-cloudflare/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surishortlink/suri-deploy-cloudflare.git"
+  },
+  "scripts": {
+    "build": "suri"
+  },
+  "devDependencies": {
+    "@surishortlink/suri": "^2",
+    "wrangler": "^4"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
