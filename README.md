@@ -16,14 +16,16 @@ Suri, including additional deployment options.
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/surishortlink/suri-deploy-cloudflare)
 
 After you hit the above button, Cloudflare will walk you through the entire
-process, from creating a new repository based on this one and naming your
-Worker, to the initial build and deploy. Everything should be correctly
-configured and ready to go.
+process, from creating a new repository based on this one and choosing a project
+name, to the initial build and deploy. Everything should be correctly configured
+and ready to go.
 
 ### Auto-Deploy
 
 Any commits to the `main` branch of your new repository will trigger a new build
-and deploy. You can change this in the "Settings" of your Worker, under "Build".
+and deploy. Pull requests get a preview build, so a mistake in `links.json` is
+caught before it's merged. You can change this in the "Settings" of your Worker,
+under "Builds".
 
 ### Custom Domain
 
